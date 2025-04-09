@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0c1ac8a41498c1a9c --count 1 --instance-type t3.micro --key-name apchatte_ubuntu --security-group-ids sg-0263d214967d46289 --subnet-id subnet-03033b7478ef7395b --region eu-north-1
